@@ -7,9 +7,10 @@ class Discipline
 class Cours
 
 class Etudiant
-
+<> d
 Professeur "1" -- "*" Discipline
-(Professeur, Discipline) .. Cours
+(Professeur, Discipline)  -- d
+d -- Cours
 Etudiant "5..30" -- "*" Cours
 
 @enduml
