@@ -26,7 +26,8 @@ Etant donné le diagramme de domaine ci-dessus, les assertions suivantes sont-el
 Représentez la même association avec la notation UML « petit losange » 
 
 - Quelles informations perd-on par rapport au diagramme ci-dessus ?
-
+Le losange présente une relation plus forte entre Professeur et Discipline. On pourrait dire que si une instance de
+Professeur est supprimée alors toutes les disciplines associées avec celle-ci seront détruire également.
 
 
 
